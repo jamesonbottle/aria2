@@ -92,7 +92,7 @@ jobs:
         "$HOST-strip" src/aria2c.exe
 
     - name: Upload aria2c.exe
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: aria2c-win64
         path: src/aria2c.exe
